@@ -12,7 +12,5 @@ app.register_blueprint(phishing_controller)
 app.register_blueprint(database_controller)
 
 if __name__ == '__main__':
-    # Create the main driver function
-    port = int(os.environ.get("PORT", 5000))
-    app.run(host='0.0.0.0', port=port)  
+    app.run(port=5555, host='0.0.0.0')  
 

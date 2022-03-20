@@ -16,4 +16,4 @@ RUN pip3 install -r requirements.txt
 EXPOSE 5000
 
 #Run the command
-CMD gunicorn main:app --timeout 0
+CMD gunicorn main:app

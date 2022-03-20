@@ -11,6 +11,13 @@ app.config["CORS_HEADERS"] = "Content-Type"
 app.register_blueprint(phishing_controller)
 app.register_blueprint(database_controller)
 
-if __name__ == '__main__':
-    app.run(port=5555, host='0.0.0.0')  
 
+@app.route('/')
+def api_home():
+    message = 'Welcome to Cyber System Detection API. You can check the manual on the github page: https://github.com/NaorFahima/Cyber-System-Detection-Server'
+    return {"message": message}
+
+
+if __name__ == '__main__':
+    port = int(os.environ.get('PORT', 5000))
+    app.run(host='0.0.0.0', port=port)

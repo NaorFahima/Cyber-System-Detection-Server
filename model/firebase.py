@@ -2,7 +2,7 @@
 # Use the application default credentials
 from firebase_admin import credentials, firestore, initialize_app
 from datetime import datetime
-from utils.url_operation import add_url_schema, extract_domain_name_from_url
+from utils.url_operation import extract_domain_name_from_url
 
 cred = credentials.Certificate("./model/database_key.json")
 initialize_app(cred)

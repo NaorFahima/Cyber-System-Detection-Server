@@ -2,7 +2,6 @@ import re
 import requests
 import dnstwist
 from datetime import datetime
-from bs4 import BeautifulSoup
 
 
 def extract_domain_name_from_url(url: str) -> str:

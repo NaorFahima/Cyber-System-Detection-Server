@@ -39,3 +39,4 @@ database_key.json
 
 # VS code
 .vscode
+service/email_key.json

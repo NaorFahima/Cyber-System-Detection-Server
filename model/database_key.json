@@ -1,0 +1,12 @@
+{
+    "type": "service_account",
+    "project_id": "phishing-detection-proje-779f8",
+    "private_key_id": "02ad1ea70d6408368e8d3780f33f537805a42227",
+    "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQC7ltSTKY/hQ6qy\nFhZ6idRrAZ0S0Y8ZGszgxd2b89SMKGzxfBNHrTH/Okd57uUmRXmR6C4LTS8TNg+x\nKoWUC/bGsmcKVb3AuK0foxI4zwpkbkndVKTvvmTdbh28o42jJ7Yq/y4XCP0B1o9o\nobumv1ZgNkgO8t1Mso/cbVBunvxWgFU2Vm784Fs0heD6eNykdp8sEhwCnPUHE/5J\npy58VxvzpK/X3j2GfvDt3c6MceFm+Wa/GMHxNkRdJWg8wEWUcEW74k3iybWexNGt\nv5Iuv8crqnbhfvLzharqQKm8nzZAn3Vx9GtuPIM+3MB6iJXZHCn9HNwvmR+MESEf\njN4i5LYzAgMBAAECggEAN59XI9WwkHpYfFq5Spdg0WPWl9Rkamy8cC+rcMkhbne0\nKfyA2QF9cDDvLbQM5Ua3b/CY6of12+vtRjqWBhpwD2Wp0PIwhBseVmGrjwWxDqt3\nInYtO9tIHDJBBgS3BDhLtz8YAwOKxcdBmaRPOHfGnFusDSatQMc3igQt08c3ikwc\nCm9whcIitOs6ERnPDuCQctRu0Msu2tq3IWz/ou5oU4UvEhxki9XB5H4WnVMGrAHb\nfCFjLZoNlXr614p+lEvFC+GlWAu+uLvavvW+EyAWI4bI0sQ+oq9Lb5+JbdKLVvXH\noezJZcS7XO/hfk7hti/oXlFSXbczwIEChNzQxm+DFQKBgQDoS7xvppHMvhdPnM+V\ndONCpttt6kB3w+sJ24NN+DJXTpnIdLgmSxfk4QZi4GMwPZJkDjZCl5oq3p1oJQN+\nlGEekx7b1n5ylapJy6SXeWVjL58rsL9/hXVBRqEQGaex9xsM3arYsoiB9YCXviko\n4q+/GtVkNHlFb/oc0Mw127pY7QKBgQDOuzjjItCg572eEVPHKQvgsB9LbUynBddx\nK9CeJBEEaCji4MLy/paWnZUVHWBqcb1Hf3cD0BQpyIIHQ/2Jxxj+8bbUH959IeBA\nCSVn68dO4O1FyCqsfkMhVfbWHpBZvFhapS8R33Y0eJ4pKwcdYPOxKBdcso/sB6x0\nHzrw/n0HnwKBgGWYki6mxEeur9VS+Psd5zNEdN3qwQ1gc5CZICFetu22Y83nNo8Q\n8r9Yp4lhKCB2HWuDR7nyQiwTtvZQkemvjZZos+tkMWN+D788wJy7LFun/U6HfAmS\n3giRkmnPPqe4Mm17GXizBL8KF5bGRYwrMMA9RS0RQiTbZ6FotJetpR+1AoGBAItL\nzc4GRGtXGwYqCLhWqQExyzRoplCYeA1yh3Q3OxwsDviol9NhxhgggDak/7VZhD9r\n3Ma96wgoaaz5nBm9BNOsDRQrkR/htpePUhwO29IDbv0pHc/yl8sbgGHQYFWGukYB\nrZCucJh0eaWlr3qVPD6vk+ZLDvzsQsBP1shRwe9jAoGARffe/UkzekTAbphoibBc\n7mxFJieiKMeL4mW3DYOAyEIw4i3kSP8MMtMdhY0BatxuGsGCbo5mSbkR58AJktHT\njEh/XsZ2XxZ85wtXHLJYn9bD0kQHNVYfotlLBSNeiECIiDymnCv0puzbbd3wPMiO\n0G5zZLHrZiKH+9x2YDB7pRA=\n-----END PRIVATE KEY-----\n",
+    "client_email": "firebase-adminsdk-sx4q1@phishing-detection-proje-779f8.iam.gserviceaccount.com",
+    "client_id": "109812472317581065645",
+    "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+    "token_uri": "https://oauth2.googleapis.com/token",
+    "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+    "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-sx4q1%40phishing-detection-proje-779f8.iam.gserviceaccount.com"
+}

@@ -30,7 +30,7 @@ class UrlVariable(Enum):
     VALID_REQUEST = 'valid request'
     LEGITIMATE_A_TAGS = 'legitimate a tags'
     LEGITIMATE_LINKS_TAGS = 'legitimate links tags'
-    VALID_SSH = 'valid ssh'
+    VALID_SFH = 'valid sfh'
     SUBMITING_TO_EMAIL = 'submitting to email'
     ABNORMAL = 'abnormal'
     LEGITIMATE_WEBSITE_FORWARDING = 'legitimate website forwarding'
@@ -83,7 +83,7 @@ class UrlInformation():
                      variable.SUB_DOMAIN.name, variable.SSL.name, variable.DOMAIN_REGISTRATION_LENGTH.name,
                      variable.FAVICON_CURRUNT_DOMAIN.name, variable.TRUSTY_PORT.name, variable.HTTPS_TOKEN.name,
                      variable.VALID_REQUEST.name, variable.LEGITIMATE_A_TAGS.name, variable.LEGITIMATE_LINKS_TAGS.name,
-                     variable.VALID_SSH.name, variable.SUBMITING_TO_EMAIL.name, variable.ABNORMAL.name,
+                     variable.VALID_SFH.name, variable.SUBMITING_TO_EMAIL.name, variable.ABNORMAL.name,
                      variable.LEGITIMATE_WEBSITE_FORWARDING.name, variable.STATUS_BAR_ON_MOUSE_OVER.name,
                      variable.DISABLE_RIGHT_CLICK.name, variable.POPUP_WINDOWS.name, variable.IFRAME_REDIRECTION.name,
                      variable.AGE_OF_DOMAIN.name, variable.DNS_RECORD.name, variable.WEB_TRAFFIC.name, variable.PAGE_RANK.name,
@@ -194,7 +194,7 @@ class UrlInformation():
         if type(X_new) != list:
             return {'code': 0, 'message': "Can't reach Url", 'url': url, 'timestamp': datetime.now()}
 
-        print(url,X_new)
+        print(url, X_new)
         X_new = np.array(X_new).reshape(1, -1)
         prediction = clf.predict(X_new)
 

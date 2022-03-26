@@ -17,6 +17,7 @@ scores = None
 
 def worker(url: str) -> object:
     """thread worker function"""
+    print(f"New worker started working on: {url}")
     if not is_url_valid(url):
         return False
     url_information = UrlInformation(url, clf)
@@ -45,7 +46,7 @@ def get_phishing_detection_details(url: str, scores_filter: list) -> list:
     urls = genarate_simallier_valid_urls(url)
 
     # Make the Pool of workers
-    pool = ThreadPool(64)
+    pool = ThreadPool(12)
 
     # Open the URLs in their own threads
     # and return the results

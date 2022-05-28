@@ -22,6 +22,8 @@ def worker(url: str) -> object:
         return False
     url_information = UrlInformation(url, clf)
     dom_compare_dict = dom_compare(original_url, url)
+
+    # Score calculation: If decision tree says "phishing" => score is determined by dom compare (1-5) else score is 0
     score = round(1 + dom_compare_dict["similarity"]
                   * 4) if url_information.status["code"] == -1 else 0
 

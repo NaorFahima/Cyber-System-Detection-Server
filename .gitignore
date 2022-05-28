@@ -35,6 +35,8 @@ venv/
 ENV/
 env.bak/
 venv.bak/
+database_key.json
+
 
 # VS code
 .vscode
